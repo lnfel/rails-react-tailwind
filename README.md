@@ -58,6 +58,7 @@ Output: greeting: "Hello from react-rails", inspect webpage in your browser too 
 **Make the app production ready:**
 
 move sqlite3 gem inside development and test group
+
 `<!-- Gemfile -->`
 
     group :development, :test do
@@ -87,6 +88,8 @@ Push the repo to Github and deploy the app to Heroku.
 
 If you only need react for rails, you're good to go.
 To integrate tailwind for your app, follow the next steps
+
+## Integrating Tailwincss
 
 **Intall tailwind using yarn:**
 
