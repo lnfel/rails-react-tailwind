@@ -207,7 +207,7 @@ DEPENDENCIES
   byebug
   capybara (= 3.32.2)
   jbuilder (= 2.10.0)
-  pg
+  pg (= 1.2.3)
   puma (= 4.3.5)
   rails (~> 6.0.3, >= 6.0.3.1)
   react-rails (= 2.6.1)
