@@ -123,6 +123,7 @@ then create **"application.scss"** inside stylesheets folder
     require("stylesheets/application.scss")
 
 **Change stylesheet_link_tag to stylesheet_pack_tag**
+
 `<!-- app/views/layouts/application.html.erb -->`
 
     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
