@@ -1,2 +1,18 @@
-<h1>Rails with React + Tailwind</h1>
-<%= react_component("HelloWorld", { greeting: "Hello from react-rails." }) %>
+<nav class="flex items-center justify-between flex-wrap bg-green-500 p-6 mb-4">
+    <h1 class="font-semibold text-xl text-white tracking-tight">Rails with React + Tailwind</h1>
+</nav>
+
+<div class="max-w-sm rounded overflow-hidden shadow-lg ml-4">
+  <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p class="text-gray-700 text-base">
+    <%= react_component("HelloWorld", { greeting: "Hello from react-rails." }) %>
+    </p>
+  </div>
+  <div class="px-6 py-4">
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#rails</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#react</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#tailwind</span>
+  </div>
+</div>
